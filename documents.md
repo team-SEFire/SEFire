@@ -1,3 +1,6 @@
+---
+---
+
 # Project Documents
 
 This page contains Team Sapphire's project documentation and deliverables.
@@ -6,4 +9,4 @@ This page contains Team Sapphire's project documentation and deliverables.
 
 Team Sapphire's outline for the Lab 1 descriptive paper.
 
-PDF soon....
+[View Lab 1 Outline (PDF)]({{ '/docs/lab1-outline.pdf' | relative_url }})
