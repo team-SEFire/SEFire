@@ -1,4 +1,9 @@
+---
+---
+
 # SEFire
+
+[Home]({{ '/' | relative_url }}) | [Documents]({{ '/documents.html' | relative_url }})
 
 ## Team Sapphire
 
