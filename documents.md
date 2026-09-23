@@ -17,7 +17,7 @@ View Our Outline Below
   name="Lab 1 Outline" 
   allowTransparency="true" 
   scrolling="yes" 
-  width="1000" 
-  height="1000" 
+  width="750" 
+  height="500" 
   frameborder='0'>
   </iframe>
