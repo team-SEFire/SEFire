@@ -16,11 +16,11 @@ Team Sapphire's outline for the Lab 1 descriptive paper.
 View Our Outline Below
 
 <iframe 
-  src="[View Lab 1 Outline (PDF)]({{ '/docs/lab1-outline.pdf' | relative_url }})"
-name="Lab 1 Outline"
+  src="[[View Lab 1 Outline (PDF)]({{ '/docs/lab1-outline.pdf' | relative_url }})"
+name="Lab 1 Outline](https://docs.google.com/document/d/e/2PACX-1vSvSB5wCt2f1Uu5SPFsyrLDmh_twB2bDuZkEK1MXbCeYuk1y_xYMHRFrWXwNM29FoeF6rDCtuG7bCYp/pub?embedded=true)"
 allowTransparency="true"
 scrolling="yes"
-width="2000"
+width="1000"
 height="1000"
 frameborder='0'
 ></iframe>
