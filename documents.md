@@ -16,7 +16,7 @@ Team Sapphire's outline for the Lab 1 descriptive paper.
 View Our Outline Below
 
 <iframe 
-  src="https://github.com/user-attachments/files/32540314/Lab.1.Outline.pdf"
+  src="[View Lab 1 Outline (PDF)]({{ '/docs/lab1-outline.pdf' | relative_url }})"
 name="Lab 1 Outline"
 allowTransparency="true"
 scrolling="yes"
