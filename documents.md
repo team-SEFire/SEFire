@@ -19,6 +19,8 @@ View Our Outline Below
   src="https://docs.google.com/document/d/e/2PACX-1vSvSB5wCt2f1Uu5SPFsyrLDmh_twB2bDuZkEK1MXbCeYuk1y_xYMHRFrWXwNM29FoeF6rDCtuG7bCYp/pub?embedded=true"
 name="Lab 1 Outline"
 allowTransparency="true"
-scrolling="no"
+scrolling="yes"
+width="50%"
+height="100%"
 frameborder='0'
 ></iframe>
