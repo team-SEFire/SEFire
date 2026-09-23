@@ -20,7 +20,7 @@ View Our Outline Below
 name="Lab 1 Outline"
 allowTransparency="true"
 scrolling="yes"
-width="1000"
+width="2000"
 height="1000"
 frameborder='0'
 ></iframe>
