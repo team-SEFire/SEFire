@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>SEFire</title>
-        <link rel="stylesheet" href="/assets/css/style.css">
-    </head>
-    <body>
-        <header>
-            <h1>SEFire</h1>
-            <nav>
-                    <a href = "{{ '/' | relative_url}}">Home</a></li>
-                    <a href="{{ '/team' | relative_url }}">Team</a></li>
-                    <a href="{{ '/documents' | relative_url }}">Documents</a></li>
-                    <a href="{{ '/presentations' | relative_url }}">Presentations</a></li>
-            </nav>
-        </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title | escape }} | Team Sapphire</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-        <main>
-            {{ content }}
-        </main>
+  <header class="site-header">
+    <nav class="navigation" aria-label="Main navigation">
+      <a class="brand" href="{{ '/' | relative_url }}">SEFire</a>
 
-        <footer>
-            <p>SEFire | ODU CS 410 Team Sapphire</p>
-        </footer>
-    </body>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/presentations.html' | relative_url }}">Presentations</a></li>
+        <li><a href="{{ '/documents.html' | relative_url }}">Documents</a></li>
+        <li><a href="{{ '/team.html' | relative_url }}">Team</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" class="page-content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <p><strong>SEFire · Team Sapphire</strong></p>
+    <p>Old Dominion University · CS 410</p>
+  </footer>
+</body>
 </html>

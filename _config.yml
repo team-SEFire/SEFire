@@ -1,1 +1,10 @@
-theme: jekyll-theme-cayman
+title: SEFire
+description: Shared expense tracking by Team Sapphire
+url: "https://team-sefire.github.io"
+baseurl: "/SEFire"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
