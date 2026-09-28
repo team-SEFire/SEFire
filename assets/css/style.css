@@ -8,8 +8,8 @@ body {
 /*Header*/
 
 header {
-    background-color: #ffff;
-    color: #3f63af;
+    background-color: #2945e4;
+    color: #ffff;
     padding: 20px;
     text-align: center;
     position: relative;
@@ -25,8 +25,8 @@ header {
 }
 
 .header-icons img {
-    width: 32px;
-    height: 32px;
+    width: 60px;
+    height: 60px;
     object-fit: contain;
 }
 
@@ -38,13 +38,13 @@ header h1 {
 /*Navigation*/
 
 nav a {
-    color: #3f63af;
+    color: #ffff;
     text-decoration: none;
     margin: 0 15px;
 }
 
 nav a:hover {
-    color: #1f3f82;
+    color: #ffff;
     text-decoration: underline;
 }
 
@@ -89,7 +89,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #2945e4;
     color: #fff;
     text-align: center;
     padding: 10px;
