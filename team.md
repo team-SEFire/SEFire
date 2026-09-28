@@ -7,7 +7,7 @@ layout: default
         <img src="assets/images/justinj.png" alt = "Justin Jude Javier">
         <h2> Justin Jude Javier </h2>
         <p>
-            Comp Sci Major
+            Justin is a Senior Computer Science Major at ODU. He is interested in pursuing a career in software engineering or cyber security after graduation. During his free time, he likes to play video games, read manga, watch anime, and spend time with his family.
         </p>
     </div>
     
