@@ -68,7 +68,7 @@ Meet the team behind SEFire.
             <img src="{{ '/assets/images/lawrey.png' | relative_url }}" alt="Laurie Kreger">
             <h2>Laurie Kreger</h2>
         <div class="bio-description">
-            <p>Computer Science Major</p>
+            <p>Laurie is a Senior Computer Science major at ODU. She is interested in network administration, computer repair/assembly, and cybersecurity.  In her freetime, she enjoys playing video games, drawing, and watching anime.</p>
             </div>
         </div>
     </div>
