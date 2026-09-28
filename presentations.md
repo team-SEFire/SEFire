@@ -1,4 +1,6 @@
-
+---
+layout: default
+---
 # Working Draft Feasibility Presentation
 
 This page contains Team Sapphire's draft feasibility iteration.
