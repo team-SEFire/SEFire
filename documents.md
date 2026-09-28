@@ -1,4 +1,6 @@
-
+---
+layout: default
+---
 # Project Documents
 
 This page contains Team Sapphire's project documentation and deliverables.

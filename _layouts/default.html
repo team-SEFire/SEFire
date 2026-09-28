@@ -3,23 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title | default: site.title | escape }} | Team Sapphire</title>
+
+  <title>{{ page.title | default: site.title | escape }} | SEFire</title>
+
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
+
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
 
   <header class="site-header">
-    <nav class="navigation" aria-label="Main navigation">
-      <a class="brand" href="{{ '/' | relative_url }}">SEFire</a>
+    <h1>SEFire</h1>
 
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/presentations.html' | relative_url }}">Presentations</a></li>
-        <li><a href="{{ '/documents.html' | relative_url }}">Documents</a></li>
-        <li><a href="{{ '/team.html' | relative_url }}">Team</a></li>
-      </ul>
+    <nav class="navigation" aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/team.html' | relative_url }}">Team</a>
+      <a href="{{ '/documents.html' | relative_url }}">Documents</a>
+      <a href="{{ '/presentations.html' | relative_url }}">Presentations</a>
     </nav>
+
+    <div class="header-icons">
+      <a href="{{ '/' | relative_url }}">
+        <img
+          src="{{ '/assets/images/SEFire.png' | relative_url }}"
+          alt="SEFire Logo"
+          class="header-icon">
+      </a>
+    </div>
   </header>
 
   <main id="main-content" class="page-content">
