@@ -1,10 +1,5 @@
 ---
 ---
-# SEFire
-
-[Home]({{ '/' | relative_url }}) | [Documents]({{ '/documents.html' | relative_url }}) | [Presentations]({{ '/presentations.html' | relative_url }})
-
-
 # Project Documents
 
 This page contains Team Sapphire's project documentation and deliverables.

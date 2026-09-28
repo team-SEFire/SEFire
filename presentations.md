@@ -1,9 +1,5 @@
 ---
 ---
-# SEFire
-
-[Home]({{ '/' | relative_url }}) | [Documents]({{ '/documents.html' | relative_url }}) | [Presentations]({{ '/presentations.html' | relative_url }})
-
 # Working Draft Feasibility Presentation
 
 This page contains Team Sapphire's draft feasibility iteration.
