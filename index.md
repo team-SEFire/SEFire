@@ -1,5 +1,4 @@
----
----
+
 ## Team Sapphire
 
 SEFire is a shared expense tracking application designed to help people keep track of shared expenses
