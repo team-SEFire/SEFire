@@ -3,6 +3,10 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /*Header*/
@@ -52,6 +56,7 @@ nav a:hover {
 
 main {
     padding: 20px;
+    flex: 1;
 }
 
 /*Team*/
@@ -93,6 +98,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    bottom: 0;
     width: 100%;
+    box-sizing: border-box;
 }
