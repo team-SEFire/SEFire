@@ -27,10 +27,10 @@ Meet the team behind SEFire.
             <img src="{{ '/assets/images/alexis.png' | relative_url }}" alt="Alexis Adams">
             <h2>Alexis Adams</h2>
         <div class="bio-description">
-            <p>Computer Science Major</p>
-
+            <p>Alexis Adams is a Senior Computer Science major at ODU. She served in the U.S. Navy as a Sonar Technician for nine years and was later employed by Amentum as a Test Engineer for nearly a year. Outside of school, she likes painting, traveling, and spending time with her family, dog, and two cats. </p>
             </div>
         </div>
+
     </div>
 
     <div class="team-member">
