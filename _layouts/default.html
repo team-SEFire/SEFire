@@ -3,23 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>{{page.title}} |SEFire</title>
-        <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+        <link rel="stylesheet" 
+                href="{{ '/assets/css/style.css' | relative_url }}">
     </head>
     <body>
         <header>
+
             <h1>SEFire</h1>
+
             <nav>
-                    <a href = "{{ '/' | relative_url}}">Home</a></li>
-                    <a href="{{ '/team' | relative_url }}">Team</a></li>
-                    <a href="{{ '/documents' | relative_url }}">Documents</a></li>
-                    <a href="{{ '/presentations' | relative_url }}">Presentations</a></li>
+                    <a href = "{{ '/' | relative_url}}">Home</a>
+                    <a href="{{ '/team' | relative_url }}">Team</a>
+                    <a href="{{ '/documents' | relative_url }}">Documents</a>
+                    <a href="{{ '/presentations' | relative_url }}">Presentations</a>
             </nav>
+
             <div class="header-icons">
-                <a href="{{ '/assets/images/SEFire.png' | relative_url }}" target="_blank">
-                    <img src="{{ '/assets/images/SEFire.png' | relative_url }}" alt="SEFire Logo" class="header-icon">
+                <a href="{{ '/' | relative_url }}">
+                    <img src="{{ '/assets/images/SEFire.png' | relative_url }}"
+                        alt="SEFire Logo"
+                        class="header-icon">
                 </a>
             </div>
+
         </header>
 
         <main>
@@ -29,5 +38,6 @@
         <footer>
             <p>SEFire | ODU CS 410 Team Sapphire</p>
         </footer>
+
     </body>
 </html>

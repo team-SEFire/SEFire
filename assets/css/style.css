@@ -1,3 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+
+header {
+    background-color: #ffff;
+    color: #3f63af;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.header-icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    display: flex;
+    gap: 15px;
+}
+
+.header-icons img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/*Navigation*/
+
+nav a {
+    color: #3f63af;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #1f3f82;
+    text-decoration: underline;
+}
+
+/*Main*/
+
+main {
+    padding: 20px;
+}
+
+/*Team*/
+
 .team-container {
     display: flex;
     flex-wrap: wrap;
@@ -29,57 +87,12 @@
     line-height: 1.6;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #ffff;
-    color: #3f63af;
-    padding: 20px;
-    text-align: center;
-    position: relative;
-}
-
-.header-icons {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-
-    display: flex;
-    gap: 15px;
-}
-
-.header-icons img {
-    width: 32px;
-    height: 32px;
-    object-fit: contain;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2em;
-}
-
+/* Footer */
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 15px;
-}
-
-main {
-    padding: 20px;
 }
