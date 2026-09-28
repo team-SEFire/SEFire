@@ -12,26 +12,21 @@ body {
 /*Header*/
 
 header {
-    background-color: #0F52BA;
+    background-color: #808080;
     color: #ffff;
     padding: 20px;
     text-align: center;
     position: relative;
 }
 
-.header-icons {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-
-    display: flex;
-    gap: 15px;
+.site-logo {
+    text-align: center;
 }
 
-.header-icons img {
-    width: 60px;
-    height: 60px;
-    object-fit: contain;
+.site-logo img {
+    width: 350px;
+    max-width: 90%;
+    height: auto;
 }
 
 header h1 {
@@ -104,7 +99,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #0F52BA;
+    background-color: #808080;
     color: #fff;
     text-align: center;
     padding: 10px;

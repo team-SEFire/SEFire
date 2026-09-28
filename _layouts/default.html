@@ -10,24 +10,21 @@
 </head>
 
 <body>
+
   <header class="site-header">
-    <h1>SEFire</h1>
-
-    <nav class="navigation" aria-label="Main navigation">
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/team.html' | relative_url }}">Team</a>
-      <a href="{{ '/documents.html' | relative_url }}">Documents</a>
-      <a href="{{ '/presentations.html' | relative_url }}">Presentations</a>
-    </nav>
-
-    <div class="header-icons">
-      <a href="{{ '/' | relative_url }}">
-        <img
-          src="{{ '/assets/images/SEFire.png' | relative_url }}"
-          alt="SEFire Logo"
-          class="header-icon">
-      </a>
+    <div class="site-logo">
+        <a href="{{ '/' | relative_url }}">
+            <img src="{{ '/assets/images/SEFireTitle.png' | relative_url }}"
+                 alt="SEFire">
+        </a>
     </div>
+
+    <nav>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/team.html' | relative_url }}">Team</a>
+        <a href="{{ '/documents.html' | relative_url }}">Documents</a>
+        <a href="{{ '/presentations.html' | relative_url }}">Presentations</a>
+    </nav>
   </header>
 
   <main id="main-content" class="page-content">
