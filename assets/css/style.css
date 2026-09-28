@@ -37,14 +37,27 @@ header h1 {
 /*Navigation*/
 
 nav a {
-    color: #ffff;
+    display: inline-block;
+
+    color: #0067bc;
+    background-color: #ffffff;
+
     text-decoration: none;
-    margin: 0 15px;
+
+    padding: 8px 16px;
+    margin: 0 5px;
+
+    border: 2px solid #0067bc;
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    transition: 0.2s;
 }
 
 nav a:hover {
-    color: #ffff;
-    text-decoration: underline;
+    background-color: #0067bc;
+    color: #ffffff;
 }
 
 /*Main*/
