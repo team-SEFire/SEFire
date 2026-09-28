@@ -6,13 +6,11 @@
 }
 
 .team-member {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    text-align: center;
     width: 300px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    background: #f5f5f5;
 }
 
 .team-member img {
