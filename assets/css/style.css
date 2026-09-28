@@ -92,6 +92,16 @@ main {
     line-height: 1.6;
 }
 
+.bio-header {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #02075d;
+}
+
+.bio-description {
+    padding-top: 15px;
+    text-align: left;
+}
+
 /* Footer */
 footer {
     background-color: #0F52BA;
