@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+# Team Bio
+
 <div class = "team-container">
 
     <div class = "team-member">
@@ -12,17 +14,6 @@ layout: default
     </div>
     
 </div>        
-
-### Team Bio
-
-- Justin Javier
-- Jared Chavira
-- Laurie Kreger
-- Keith Hamlin
-- Luke Gibson
-- Suleiman Mjed
-- Alexis Adams
-- Kevin Neri
 
 ## CS 410
 
