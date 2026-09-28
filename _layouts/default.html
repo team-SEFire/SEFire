@@ -11,9 +11,10 @@
             <h1>SEFire</h1>
             <nav>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/documents">Documents</a></li>
-                    <li><a href="/team">Team</a></li>
+                    <li> <a href = "{{ '/' | relative_url}}">Home</a></li>
+                    <li><a href="{{ '/team' | relative_url }}">Team</a></li>
+                    <li><a href="{{ '/documents' | relative_url }}">Documents</a></li>
+                    <li><a href="{{ '/presentations' | relative_url }}">Presentations</a></li>
                 </ul>
             </nav>
         </header>
