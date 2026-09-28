@@ -1,43 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>{{page.title}} |SEFire</title>
+  <title>{{ page.title | default: site.title | escape }} | SEFire</title>
 
-        <link rel="stylesheet" 
-                href="{{ '/assets/css/style.css' | relative_url }}">
-    </head>
-    <body>
-        <header>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
 
-            <h1>SEFire</h1>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-            <nav>
-                    <a href = "{{ '/' | relative_url}}">Home</a>
-                    <a href="{{ '/team' | relative_url }}">Team</a>
-                    <a href="{{ '/documents' | relative_url }}">Documents</a>
-                    <a href="{{ '/presentations' | relative_url }}">Presentations</a>
-            </nav>
+  <header class="site-header">
+    <h1>SEFire</h1>
 
-            <div class="header-icons">
-                <a href="{{ '/' | relative_url }}">
-                    <img src="{{ '/assets/images/SEFire.png' | relative_url }}"
-                        alt="SEFire Logo"
-                        class="header-icon">
-                </a>
-            </div>
+    <nav class="navigation" aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/team.html' | relative_url }}">Team</a>
+      <a href="{{ '/documents.html' | relative_url }}">Documents</a>
+      <a href="{{ '/presentations.html' | relative_url }}">Presentations</a>
+    </nav>
 
-        </header>
+    <div class="header-icons">
+      <a href="{{ '/' | relative_url }}">
+        <img
+          src="{{ '/assets/images/SEFire.png' | relative_url }}"
+          alt="SEFire Logo"
+          class="header-icon">
+      </a>
+    </div>
+  </header>
 
-        <main>
-            {{ content }}
-        </main>
+  <main id="main-content" class="page-content">
+    {{ content }}
+  </main>
 
-        <footer>
-            <p>SEFire | ODU CS 410 Team Sapphire</p>
-        </footer>
-
-    </body>
+  <footer class="site-footer">
+    <p><strong>SEFire · Team Sapphire</strong></p>
+    <p>Old Dominion University · CS 410</p>
+  </footer>
+</body>
 </html>
