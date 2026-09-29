@@ -129,6 +129,7 @@ title: Team
         <div class="bio-header">
             <img src="{{ '/assets/images/sully.png' | relative_url }}" alt="Suleiman Mjed">
 
+<<<<<<< HEAD
             <h2>Suleiman Mjed</h2>
         </div>
         <div class="bio-description">
@@ -136,6 +137,45 @@ title: Team
             Computer Science Major
             </p>
         </div>
+=======
+    <div class="team-member">
+        <img src="{{ '/assets/images/JaredR.png' | relative_url }}" alt="Jared Chavira">
+        <h2>Jared Chavira</h2>
+        <p>Computer Science Major</p>
+    </div>
+
+    <div class="team-member">
+        <img src="{{ '/assets/images/keith.png' | relative_url }}" alt="Keith Hamlin">
+        <h2>Keith Hamlin</h2>
+        <p>Computer Science Major</p>
+    </div>
+
+    <div class="team-member">
+        <img src="{{ '/assets/images/kevin.png' | relative_url }}" alt="Kevin Neri">
+        <h2>Kevin Neri</h2>
+            <p>
+            Kevin is a senior Computer Science student at Old Dominion University. After graduation, he would like to pursue a career in information technology. During his free time, he enjoys riding his motorcycle and playing video games.
+        </p>
+        <p>Computer Science Major</p>
+    </div>
+
+    <div class="team-member">
+        <img src="{{ '/assets/images/lawrey.png' | relative_url }}" alt="Laurie Kreger">
+        <h2>Laurie Kreger</h2>
+        <p>Computer Science Major</p>
+    </div>
+
+    <div class="team-member">
+        <img src="{{ '/assets/images/luke.png' | relative_url }}" alt="Luke Gibson">
+        <h2>Luke Gibson</h2>
+        <p>Computer Science Major</p>
+    </div>
+
+    <div class="team-member">
+        <img src="{{ '/assets/images/sully.png' | relative_url }}" alt="Suleiman Mjed">
+        <h2>Suleiman Mjed</h2>
+        <p>Computer Science Major</p>
+>>>>>>> a8f3013 (Updated my bio (kevin))
     </div>
 
 </div>
