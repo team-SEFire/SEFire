@@ -42,14 +42,15 @@ Meet the team behind SEFire.
             <p>
             Alexis Adams is a Senior Computer Science major at ODU. She served in the U.S. Navy as a Sonar Technician for nine years and was later employed by Amentum as a Test Engineer for nearly a year. Outside of school, she likes painting, traveling, and spending time with her family, dog, and two cats. 
             </p>
-            </div>
         </div>
+    </div>
 
     <div class="team-member">
+
         <div class="bio-header">
             <img src="{{ '/assets/images/JaredR.png' | relative_url }}" alt="Jared Chavira">
         
-        <h2>Jared Chavira</h2>
+            <h2>Jared Chavira</h2>
         </div>
 
         <div class="bio-description">
@@ -63,9 +64,10 @@ Meet the team behind SEFire.
     <div class="team-member">
         <div class="bio-header">
             <img src="{{ '/assets/images/keith.png' | relative_url }}" alt="Keith Hamlin">
-        </div>
 
             <h2>Keith Hamlin</h2>
+        </div>
+
         <div class="bio-description">
             <p>
             Computer Science Major
@@ -77,9 +79,10 @@ Meet the team behind SEFire.
     <div class="team-member">
         <div class="bio-header">
             <img src="{{ '/assets/images/kevin.png' | relative_url }}" alt="Kevin Neri">
-        </div>
         
             <h2>Kevin Neri</h2>
+        </div>
+
         <div class="bio-description">
         <p>
         Computer Science Major
@@ -91,8 +94,10 @@ Meet the team behind SEFire.
     <div class="team-member">
         <div class="bio-header">
             <img src="{{ '/assets/images/lawrey.png' | relative_url }}" alt="Laurie Kreger">
-        </div>
+        
             <h2>Laurie Kreger</h2>
+        </div>
+
         <div class="bio-description">
             <p>
             Laurie is a Senior Computer Science major at ODU. She is interested in network administration, computer repair/assembly, and cybersecurity.  In her freetime, she enjoys playing video games, drawing, and watching anime.
@@ -104,9 +109,9 @@ Meet the team behind SEFire.
     <div class="team-member">
         <div class="bio-header">
             <img src="{{ '/assets/images/luke.png' | relative_url }}" alt="Luke Gibson">
-        </div>
 
             <h2>Luke Gibson</h2>
+        </div>
         <div class="bio-description"> 
             <p>
             Computer Science Major
@@ -117,9 +122,9 @@ Meet the team behind SEFire.
     <div class="team-member">
         <div class="bio-header">
             <img src="{{ '/assets/images/sully.png' | relative_url }}" alt="Suleiman Mjed">
-        </div>
 
             <h2>Suleiman Mjed</h2>
+        </div>
         <div class="bio-description">
             <p>
             Computer Science Major
