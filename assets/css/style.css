@@ -1,14 +1,16 @@
+/*root makes it easier to change full colors on the page to a color scheme of choice*/
 :root {
     --sefire-blue: #0067bc;
     --sefire-light-blue: #e8f2ff;
     --sefire-dark: #29465f;
+    --sefire-black: #1a1a1a;
     --page-background: #f4f4f4;
     --white: #ffffff;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: var(--page-background);
     margin: 0;
     padding: 0;
 
@@ -24,7 +26,7 @@ body {
 }
 
 .page-title h1 {
-    color: #0067bc;
+    color: var(--sefire-blue);
 
     font-size: 2.5em;
     font-weight: 800;
@@ -34,7 +36,7 @@ body {
 }
 
 .page-title p {
-    color: #555;
+    color: var(--sefire-dark);
     margin-top: 10px;
 }
 
@@ -53,7 +55,7 @@ body {
 
 .title-line span {
     height: 2px;
-    background-color: #0067bc;
+    background-color: var(--sefire-blue);
     flex: 1;
 }
 
@@ -61,7 +63,7 @@ body {
     width: 10px;
     height: 10px;
 
-    background-color: #0067bc;
+    background-color: var(--sefire-blue);
 
     transform: rotate(45deg);
 }
@@ -69,11 +71,11 @@ body {
 /*Header*/
 
 header {
-    background-color: #ffffff;
+    background-color: var(--white);
     padding: 15px 20px 18px;
     text-align: center;
     position: relative;
-    border-bottom: 3px solid #0067bc;
+    border-bottom: 3px solid var(--sefire-blue);
 }
 
 .site-logo {
@@ -87,7 +89,7 @@ header {
 }
 
 header h1 {
-    color: #0067bc;
+    color: var(--sefire-blue);
     font-size: 2.4em;
     font-weight: 800;
     letter-spacing: 1px;
@@ -99,7 +101,7 @@ header h1 {
     display: block;
     width: 80px;
     height: 4px;
-    background-color: #0067bc;
+    background-color: var(--sefire-blue);
     margin: 8px auto 0;
     border-radius: 2px;
 }
@@ -108,20 +110,20 @@ header h1 {
 
 nav a {
     display: inline-block;
-    color: #0067bc;
-    background-color: #ffffff;
+    color: var(--sefire-blue);
+    background-color: var(--white);
     text-decoration: none;
     padding: 8px 16px;
     margin: 0 5px;
-    border: 2px solid #0067bc;
+    border: 2px solid var(--sefire-blue);
     border-radius: 8px;
     font-weight: bold;
     transition: 0.2s;
 }
 
 nav a:hover {
-    background-color: #0067bc;
-    color: #ffffff;
+    background-color: var(--sefire-blue);
+    color: var(--white);
 }
 
 /*Main*/
@@ -144,8 +146,8 @@ main {
     width: 300px;
     padding: 20px;
 
-    background-color: #29465f;
-    color: white;
+    background-color: var(--sefire-dark);
+    color: var(--white);
 
     border-radius: 10px;
 
@@ -164,19 +166,18 @@ main {
 }
 
 .team-member h2 {
-    color: #0067bc;
+    color: var(--sefire-blue);
     margin-bottom: 0;
 }
 
 .team-member p {
-    color: #555;
     line-height: 1.6;
 }
 
 .bio-header {
-    background-color: #e8f2ff;
+    background-color: var(--sefire-light-blue);
 
-    border: 2px solid #0067bc;
+    border: 2px solid var(--sefire-blue);
     border-radius: 8px;
 
     padding: 20px;
@@ -184,14 +185,14 @@ main {
 }
 
 .bio-description {
-    color: white;
+    color: var(--white);
     text-align: left;
 }
 
 /* Footer */
 footer {
-    background-color: #808080;
-    color: #fff;
+    background-color: var(--sefire-dark);
+    color: var(--white);
     text-align: center;
     padding: 10px;
     width: 100%;
