@@ -1,3 +1,11 @@
+:root {
+    --sefire-blue: #0067bc;
+    --sefire-light-blue: #e8f2ff;
+    --sefire-dark: #29465f;
+    --page-background: #f4f4f4;
+    --white: #ffffff;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
