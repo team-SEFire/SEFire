@@ -26,7 +26,7 @@ title: Team
 
         <div class="bio-description">
             <p>
-                Justin is a Senior Computer Science Major at ODU. He served in the Air Force as a Command Post Emergency Actions Controller for 7 years. He is
+                Justin is a Senior Computer Science major at ODU. He served in the Air Force as a Command Post Emergency Actions Controller for 7 years. He is
                 interested in pursuing a career in software engineering or
                 cybersecurity after graduation. During his free time, he
                 likes to play video games, read manga, watch anime, and
