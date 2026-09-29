@@ -163,9 +163,11 @@ main {
 
     border: 2px solid var(--sefire-blue);
     border-radius: 8px;
-
+    
     padding: 20px;
     margin-bottom: 20px;
+    
+    text-align: center;
 }
 
 .bio-description {
