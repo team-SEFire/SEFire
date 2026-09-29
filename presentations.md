@@ -20,12 +20,6 @@ layout: default
     Team Sapphire's working draft feasibility iteration.
     </p>
 
-    <a class="document-button"
-       href="{{ '/docs/lab1-outline.pdf' | relative_url }}"
-       target="_blank">
-        Open PDF
-    </a>
-
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSUX-AM93jYB0jvzZ0QtF5SwWLasiDtolGTedXKcahOeP1y2PcfM4FlUT-zXFU1jRy1VYjgIqbuQ5Ch/pubembed?start=false&loop=true&delayms=3000" 
     frameborder="0" 
     width="960" 
