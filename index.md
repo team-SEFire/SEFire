@@ -20,4 +20,3 @@ SEFire is a shared expense tracking application designed to help people keep tra
 
 SEFire allows people to record shared expenses, split costs, and receive reminders for upcoming bills and unpaid expenses.
 
-Old Dominion University
