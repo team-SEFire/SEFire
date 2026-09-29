@@ -171,6 +171,7 @@ main {
 }
 
 .team-member p {
+    color: var(--white);
     line-height: 1.6;
 }
 
