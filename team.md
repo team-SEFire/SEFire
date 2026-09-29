@@ -61,7 +61,7 @@ title: Team
 
         <div class="bio-description">
             <p>
-            Computer Science Major
+            Senior Computer Science Major at ODU. Also pursuing a minor in cybersecurity, Jared plans to join the military to put his skills to the test. During his free time, he likes to play video games, watch anime, play music and spending time with his dogs.
             </p>
         </div>
     </div>
