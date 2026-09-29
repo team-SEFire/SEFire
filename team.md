@@ -120,7 +120,7 @@ title: Team
         </div>
         <div class="bio-description"> 
             <p>
-            Computer Science Major
+            Luke is a senior Computer Science major at Old Dominion University. He has a mechanical background from working on Ospreys in the U.S. Air Force for six years. He hopes to complete his degree on time and pursue a career in the field afterward. In his free time, he enjoys video games, miniatures, video editing, and binge-watching TV series.
             </p>
         </div>
     </div>
