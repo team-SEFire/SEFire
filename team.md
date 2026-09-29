@@ -45,8 +45,6 @@ Meet the team behind SEFire.
             </div>
         </div>
 
-    </div>
-
     <div class="team-member">
         <div class="bio-header">
             <img src="{{ '/assets/images/JaredR.png' | relative_url }}" alt="Jared Chavira">
@@ -58,9 +56,9 @@ Meet the team behind SEFire.
             <p>
             Computer Science Major
             </p>
-            </div>
         </div>
     </div>
+
 
     <div class="team-member">
         <div class="bio-header">
@@ -72,9 +70,9 @@ Meet the team behind SEFire.
             <p>
             Computer Science Major
             </p>
-            </div>
         </div>
     </div>
+
 
     <div class="team-member">
         <div class="bio-header">
@@ -86,9 +84,9 @@ Meet the team behind SEFire.
         <p>
         Computer Science Major
         </p>
-            </div>
         </div>
     </div>
+
 
     <div class="team-member">
         <div class="bio-header">
@@ -99,9 +97,9 @@ Meet the team behind SEFire.
             <p>
             Laurie is a Senior Computer Science major at ODU. She is interested in network administration, computer repair/assembly, and cybersecurity.  In her freetime, she enjoys playing video games, drawing, and watching anime.
             </p>
-            </div>
         </div>
     </div>
+
 
     <div class="team-member">
         <div class="bio-header">
@@ -113,7 +111,6 @@ Meet the team behind SEFire.
             <p>
             Computer Science Major
             </p>
-            </div>
         </div>
     </div>
 
@@ -127,7 +124,6 @@ Meet the team behind SEFire.
             <p>
             Computer Science Major
             </p>
-            </div>
         </div>
     </div>
 
