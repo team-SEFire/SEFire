@@ -76,7 +76,7 @@ title: Team
 
         <div class="bio-description">
             <p>
-            Computer Science Major
+                Keith is a senior in the Computer Science program at Old Dominion University. He also holds a Bachelor’s degree in Foreign Affairs from the University of Virginia. He has nearly a decade of experience in information technology within the defense industry, with professional interests in enterprise systems, software development, cybersecurity, and emerging technologies. Outside of his professional and academic pursuits, Keith enjoys working out, exploring new technology, working on cars, playing video games, and spending time with his family.
             </p>
         </div>
     </div>
