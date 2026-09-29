@@ -11,7 +11,7 @@ body {
 /*Title page*/
 .page-title {
     text-align: center;
-    margin: 25px auto 35px;
+    margin: 30px 0;
 }
 
 .page-title h1 {
@@ -58,11 +58,11 @@ body {
 /*Header*/
 
 header {
-    background-color: #808080;
-    color: #ffff;
-    padding: 20px;
+    background-color: #ffffff;
+    padding: 15px 20px 18px;
     text-align: center;
     position: relative;
+    border-bottom: 3px solid #0067bc;
 }
 
 .site-logo {
@@ -76,8 +76,25 @@ header {
 }
 
 header h1 {
-    margin: 0;
-    font-size: 2em;
+    color: #0067bc;
+    font-size: 2.4em;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.page-title h1::after {
+    content: "";
+    display: block;
+
+    width: 80px;
+    height: 4px;
+
+    background-color: #0067bc;
+
+    margin: 8px auto 0;
+
+    border-radius: 2px;
 }
 
 /*Navigation*/
@@ -127,7 +144,7 @@ main {
     padding: 25px;
     border-radius: 10px;
     text-align: center;
-    background: #808080;
+    background: #e9eef3;
 }
 
 .team-member img {
@@ -145,7 +162,7 @@ main {
 }
 
 .team-member p {
-    color: white;
+    color: #555;
     line-height: 1.6;
 }
 
@@ -158,6 +175,7 @@ main {
 }
 
 .bio-description {
+    color: #222;
     padding-top: 5px;
     text-align: left;
 }
@@ -171,4 +189,3 @@ footer {
     width: 100%;
     box-sizing: border-box;
 }
-
