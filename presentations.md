@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="page-title">
-    <h1>Working Draft Feasibility Presentation</h1>
+    <h1>Presentation</h1>
     <div class="title-line">
         <span></span>
         <div class="title-diamond"></div>
