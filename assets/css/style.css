@@ -9,6 +9,7 @@ body {
     flex-direction: column;
 }
 /*Title page*/
+
 .page-title {
     text-align: center;
     margin: 30px 0;
@@ -86,14 +87,10 @@ header h1 {
 .page-title h1::after {
     content: "";
     display: block;
-
     width: 80px;
     height: 4px;
-
     background-color: #0067bc;
-
     margin: 8px auto 0;
-
     border-radius: 2px;
 }
 
@@ -101,20 +98,14 @@ header h1 {
 
 nav a {
     display: inline-block;
-
     color: #0067bc;
     background-color: #ffffff;
-
     text-decoration: none;
-
     padding: 8px 16px;
     margin: 0 5px;
-
     border: 2px solid #0067bc;
     border-radius: 8px;
-
     font-weight: bold;
-
     transition: 0.2s;
 }
 
