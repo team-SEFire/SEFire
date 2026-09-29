@@ -1,10 +1,10 @@
 /*root makes it easier to change color scheme of website*/
 :root {
     --sefire-blue: #0067bc;
-    --sefire-light-blue: #e8f2ff;
+    --sefire-light-blue: #c9dff0;
     --sefire-dark: #29465f;
     --sefire-black: #1a1a1a;
-    --page-background: #f4f4f4;
+    --page-background: #e9eef3;
     --white: #ffffff;
 }
 
@@ -71,7 +71,7 @@ body {
 /*Header*/
 
 header {
-    background-color: var(--white);
+    background-color: var(--sefire-light-blue);
     padding: 15px 20px 18px;
     text-align: center;
     position: relative;
