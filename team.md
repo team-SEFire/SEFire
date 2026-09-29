@@ -129,11 +129,11 @@ title: Team
         <div class="bio-header">
             <img src="{{ '/assets/images/sully.png' | relative_url }}" alt="Suleiman Mjed">
 
-            <h2>Suleiman Mjed</h2>
+            <h2>Suleiman Mejd</h2>
         </div>
         <div class="bio-description">
             <p>
-            Computer Science Major
+            Suleiman Mejd is a Computer Science major at ODU and a full-stack software developer. He enjoys building web and mobile apps and is a tinkerer at heart. His passion for technology started with Minecraft. Installing mods led to wanting to make his own, and that's how he learned Java, his first programming language. Today he builds fun projects that explore a concept, or practical projects like AlgoJournal, a free tool that helps engineers study algorithms.
             </p>
         </div>
     </div>
