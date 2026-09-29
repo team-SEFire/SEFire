@@ -1,9 +1,15 @@
 ---
 layout: default
 ---
-# Working Draft Feasibility Presentation
-
-This page contains Team Sapphire's draft feasibility iteration.
+<div class="page-title">
+    <h1>Working Draft Feasibility Presentation</h1>
+    <div class="title-line">
+        <span></span>
+        <div class="title-diamond"></div>
+        <span></span>
+    </div>
+    <p>This page contains Team Sapphire's draft feasibility iteration.</p>
+</div>
 
 ## Feasibility Presentation
 

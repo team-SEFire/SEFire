@@ -3,9 +3,15 @@ layout: default
 title: Team
 ---
 
-# Team Sapphire
-
-Meet the team behind SEFire.
+<div class="page-title">
+    <h1>Team Sapphire</h1>
+    <div class="title-line">
+        <span></span>
+        <div class="title-diamond"></div>
+        <span></span>
+    </div>
+    <p>Meet the team behind SEFire.</p>
+</div>
 
 <div class="team-container">
 

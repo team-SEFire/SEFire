@@ -1,9 +1,15 @@
 ---
 layout: default
 ---
-# Project Documents
-
-This page contains Team Sapphire's project documentation and deliverables.
+<div class="page-title">
+    <h1>Documents</h1>
+    <div class="title-line">
+        <span></span>
+        <div class="title-diamond"></div>
+        <span></span>
+    </div>
+    <p>This page contains Team Sapphire's project documentation and deliverables.</p>
+</div>
 
 ## Lab 1 Outline - Foundation
 
