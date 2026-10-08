@@ -19,8 +19,7 @@ layout: default
     Team Sapphire's working draft feasibility iteration 1.
     </p>
 
-    <iframe src="{{ '/docs/Feasibility 1.pdf' | relative_url }}" 
-    frameborder="0" 
+    <iframe src="https://docs.google.com/presentation/d/1gE10OTNTmf_xWHxhnuxwvJEwvhdO8OeTlyDa1mSv45w/edit?slide=id.p#slide=id.p" 
     width="960" 
     height="569" 
     allowfullscreen="true" 
@@ -38,7 +37,7 @@ layout: default
     Team Sapphire's working draft feasibility iteration 2.
     </p>
 
-    <iframe src="{{ '/docs/Feasibility 2.pdf' | relative_url }}" 
+    <iframe src="https://docs.google.com/presentation/d/1C5PkDdES52lO5-Z2gtqRkDUxVjKEYTvSHXvnqQSVQsU/edit?slide=id.h60aefe0c397572bf_3_13#slide=id.h60aefe0c397572bf_3_13" 
     frameborder="0" 
     width="960" 
     height="569" 
@@ -56,7 +55,7 @@ layout: default
     Team Sapphire's working draft feasibility iteration 3.
     </p>
 
-    <iframe src="{{ '/docs/Feasibility 3.pdf' | relative_url }}" 
+    <iframe src="https://docs.google.com/presentation/d/1g7-MPPsVvFh5YDcXKvB9yHHcisu49zVKT0XwHbkRjgE/edit?slide=id.p#slide=id.p" 
     frameborder="0" 
     width="960" 
     height="569" 
