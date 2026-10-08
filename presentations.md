@@ -47,7 +47,7 @@ layout: default
     webkitallowfullscreen="true">
     </iframe>
 
-<div>
+</div>
 
 <div class="document-card">
 
