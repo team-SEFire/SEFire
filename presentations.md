@@ -13,10 +13,9 @@ layout: default
 
 <div class="document-card">
 
-    <h2>Feasibility Presentation</h2>
+    <h2>Feasibility Presentation 1</h2>
 
     <p>
-
     Team Sapphire's working draft feasibility iteration 1.
     </p>
 
@@ -29,8 +28,13 @@ layout: default
     webkitallowfullscreen="true">
     </iframe>
 
-        <p>
+</div>
 
+<div class="document-card">
+
+    <h2>Feasibility Presentation 2</h2>
+
+    <p>
     Team Sapphire's working draft feasibility iteration 2.
     </p>
 
@@ -43,8 +47,12 @@ layout: default
     webkitallowfullscreen="true">
     </iframe>
 
-    <p>
+<div>
 
+<div class="document-card">
+
+    <h2>Feasibility Presentation 3</h2>
+    <p>
     Team Sapphire's working draft feasibility iteration 3.
     </p>
 
