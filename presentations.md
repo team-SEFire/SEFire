@@ -44,7 +44,7 @@ layout: default
     Team Sapphire's Working Draft Design Presentation.
     </p>
 
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSUX-AM93jYB0jvzZ0QtF5SwWLasiDtolGTedXKcahOeP1y2PcfM4FlUT-zXFU1jRy1VYjgIqbuQ5Ch/pubembed?start=false&loop=false&delayms=3000](https://docs.google.com/presentation/d/e/2PACX-1vSWyuCl29OYFPnGrZqSnEPRpM2E0eh8slI3v12UVdPWEclve5wGFa8x9pxb8rep_QaCIM7v9usDHdUP/pubembed?start=false&loop=false&delayms=3000"
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSUX-AM93jYB0jvzZ0QtF5SwWLasiDtolGTedXKcahOeP1y2PcfM4FlUT-zXFU1jRy1VYjgIqbuQ5Ch/pubembed?start=false&loop=false&delayms=3000"
     frameborder="0" 
     width="960" 
     height="569" 
