@@ -1,23 +1,15 @@
-/*root makes it easier to change color scheme of website*/
-:root {
-    --sefire-blue: #0067bc;
-    --sefire-light-blue: #c9dff0;
-    --sefire-dark: #29465f;
-    --sefire-black: #1a1a1a;
-    --page-background: #e9eef3;
-    --white: #ffffff;
-}
+/* Global Styles */
 
 body {
     font-family: Arial, sans-serif;
-    background-color: var(--page-background);
+    background-color: var(#e9eef3);
     margin: 0;
     padding: 0;
-
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
+
 /*Title page*/
 
 .page-title {
@@ -26,17 +18,15 @@ body {
 }
 
 .page-title h1 {
-    color: var(--sefire-blue);
-
+    color: var(#0067bc);
     font-size: 2.5em;
     font-weight: 800;
     letter-spacing: 2px;
-
     margin: 0;
 }
 
 .page-title p {
-    color: var(--sefire-dark);
+    color: var(#29465f);
     margin-top: 10px;
 }
 
@@ -46,16 +36,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
     width: 250px;
     margin: 8px auto;
-
     gap: 10px;
 }
 
 .title-line span {
     height: 2px;
-    background-color: var(--sefire-blue);
+    background-color: var(#0067bc);
     flex: 1;
 }
 
@@ -63,7 +51,7 @@ body {
     width: 10px;
     height: 10px;
 
-    background-color: var(--sefire-blue);
+    background-color: var(#0067bc);
 
     transform: rotate(45deg);
 }
@@ -71,11 +59,11 @@ body {
 /*Header*/
 
 header {
-    background-color: var(--sefire-light-blue);
+    background-color: var(#c9dff0);
     padding: 15px 20px 18px;
     text-align: center;
     position: relative;
-    border-bottom: 3px solid var(--sefire-blue);
+    border-bottom: 3px solid var(#0067bc);
 }
 
 .site-logo {
@@ -92,19 +80,19 @@ header {
 
 nav a {
     display: inline-block;
-    color: var(--sefire-blue);
+    color: var(#0067bc);
     background-color: var(--white);
     text-decoration: none;
     padding: 8px 16px;
     margin: 0 5px;
-    border: 2px solid var(--sefire-blue);
+    border: 2px solid var(#0067bc);
     border-radius: 8px;
     font-weight: bold;
     transition: 0.2s;
 }
 
 nav a:hover {
-    background-color: var(--sefire-blue);
+    background-color: var(#0067bc);
     color: var(--white);
 }
 
@@ -160,12 +148,9 @@ main {
 .team-member {
     width: 300px;
     padding: 20px;
-
-    background-color: var(--sefire-dark);
+    background-color: var(#29465f);
     color: var(--white);
-
     border-radius: 10px;
-
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
 }
 
@@ -180,7 +165,7 @@ main {
 }
 
 .team-member h2 {
-    color: var(--sefire-blue);
+    color: var(#0067bc);
     margin-top: 15px;
     margin-bottom: 0;
 }
@@ -191,14 +176,11 @@ main {
 }
 
 .bio-header {
-    background-color: var(--sefire-light-blue);
-
-    border: 2px solid var(--sefire-blue);
+    background-color: var(#c9dff0);
+    border: 2px solid var(#0067bc);
     border-radius: 8px;
-    
     padding: 20px;
     margin-bottom: 20px;
-    
     text-align: center;
 }
 
@@ -213,51 +195,42 @@ main {
     max-width: 900px;
     margin: 30px auto 50px;
     padding: 25px;
-
     background-color: var(--white);
-
     border: 1px solid #d0d7de;
     border-radius: 10px;
-
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
 }
 
 .document-card h2 {
     margin-top: 0;
-    color: var(--sefire-dark);
+    color: var(#29465f);
 }
 
 .document-card iframe {
     display: block;
     width: 100%;
     height: 650px;
-
     margin-top: 20px;
-
-    border: 2px solid var(--sefire-blue);
+    border: 2px solid var(#0067bc);
     border-radius: 6px;
-
     box-sizing: border-box;
 }
 
 .document-button {
     display: inline-block;
     padding: 9px 18px;
-
-    background-color: var(--sefire-blue);
+    background-color: var(#0067bc);
     color: var(--white);
-
     text-decoration: none;
     font-weight: bold;
-
     border-radius: 6px;
-
     transition: 0.2s;
 }
 
 .document-button:hover {
-    background-color: var(--sefire-dark);
+    background-color: var(#29465f);
     transform: translateY(-1px);
+    transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 /* Presentation Layouts */
@@ -278,23 +251,23 @@ main {
 .tab {
     padding: 12px 30px;
     background: transparent;
-    border: 2px solid var(--sefire-blue);
+    border: 2px solid var(#0067bc);
     border-radius: 8px;
-    color: var(--sefire-dark);
+    color: var(#29465f);
     font-size: 18px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .tab:hover {
-    background: var(--sefire-light-blue);
-    color: var(--sefire-blue);
+    background: var(#c9dff0);
+    color: var(#0067bc);
 }
 
 .tab.active {
-    background: var(--sefire-blue);
+    background: var(#0067bc);
     color: white;
-    border-color: var(--sefire-blue);
+    border-color: var(#0067bc);
     font-weight: bold;
 }
 
@@ -336,7 +309,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: var(--sefire-dark);
+    background-color: var(#29465f);
     color: var(--white);
     text-align: center;
     padding: 10px;

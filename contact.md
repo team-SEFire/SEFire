@@ -9,9 +9,42 @@ layout: default
         <div class="title-diamond"></div>
         <span></span>
     </div>
-    <p>Please click the links below to navigate to Old Dominion University or the Computer Science Department.</p>
+<p>
+        Visit the links below for more information about
+        Old Dominion University and its Computer Science Department.
+    </p>
 </div>
 
-https://www.odu.edu/
+<div class="document-card">
 
-https://www.odu.edu/computer-science
+    <h2>Old Dominion University</h2>
+
+    <p>
+        Visit Old Dominion University's official website
+        for information about the university.
+    </p>
+
+    <a href="https://www.odu.edu/"
+       target="_blank"
+       rel="noopener noreferrer">
+        Old Dominion University Website
+    </a>
+
+</div>
+
+<div class="document-card">
+
+    <h2>Department of Computer Science</h2>
+
+    <p>
+        Learn more about Old Dominion University's
+        Computer Science Department and its programs.
+    </p>
+
+    <a href="https://www.odu.edu/computer-science"
+       target="_blank"
+       rel="noopener noreferrer">
+        Computer Science Department Website
+    </a>
+
+</div>
