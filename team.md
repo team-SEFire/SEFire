@@ -25,7 +25,7 @@
                 interested in pursuing a career in software engineering or
                 cybersecurity after graduation. During his free time, he
                 likes to play video games, read manga, watch anime, and
-                spend time with his family.
+                spending time with his family.
             </p>
         </div>
 
