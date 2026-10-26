@@ -38,6 +38,25 @@ layout: default
 
 <div class="document-card">
 
+    <h2>Working Draft Design Presentation</h2>
+
+    <p>
+    Team Sapphire's Working Draft Design Presentation.
+    </p>
+
+    <iframe src="[https://docs.google.com/presentation/d/e/2PACX-1vSUX-AM93jYB0jvzZ0QtF5SwWLasiDtolGTedXKcahOeP1y2PcfM4FlUT-zXFU1jRy1VYjgIqbuQ5Ch/pubembed?start=false&loop=false&delayms=3000](https://docs.google.com/presentation/d/e/2PACX-1vSWyuCl29OYFPnGrZqSnEPRpM2E0eh8slI3v12UVdPWEclve5wGFa8x9pxb8rep_QaCIM7v9usDHdUP/pubembed?start=false&loop=false&delayms=3000"
+    frameborder="0" 
+    width="960" 
+    height="569" 
+    allowfullscreen="true" 
+    mozallowfullscreen="true" 
+    webkitallowfullscreen="true">
+    </iframe>
+
+</div>
+
+<div class="document-card">
+
     <h2>Feasibility Presentation</h2>
 
     <p>
