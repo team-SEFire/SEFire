@@ -1,6 +1,4 @@
----
-layout: default
----
+
 <div class="page-title">
     <h1>Glossary</h1>
     <div class="title-line">
@@ -13,19 +11,19 @@ layout: default
 
 <div class="document-card">
     <h2>Glossary</h2>
-        <p> API — Application Programming Interface</p>
-        <p> Git — Distributed version control system</p>
-        <p> GitHub — Software development and repository-hosting platform</p>
-        <p> MFCD — Major Functional Component Diagram</p>
-        <p> OCR — Optical Character Recognition</p>
-        <p> PostgreSQL — Relational database management system</p>
-        <p> React Native — Framework for developing application interfaces</p>
-        <p> React Native for Web — Technology for using React Native components in web browsers</p>
-        <p> SEFire — Shared household Expense management application</p>
-        <p> Supabase — Backend development platform</p>
-        <p> Tesseract OCR — Optical character recognition engine</p>
-        <p> UI — User interface, which is the point of contact and interaction between a human and a
+        <p> <strong>API</strong> — Application Programming Interface</p>
+        <p> <strong>Git</strong> — Distributed version control system</p>
+        <p> <strong>GitHub</strong> — Software development and repository-hosting platform</p>
+        <p> <strong>MFCD</strong> — Major Functional Component Diagram</p>
+        <p> <strong>OCR</strong> — Optical Character Recognition</p>
+        <p> <strong>PostgreSQL</strong> — Relational database management system</p>
+        <p> <strong>React Native</strong> — Framework for developing application interfaces</p>
+        <p> <strong>React Native for Web</strong> — Technology for using React Native components in web browsers</p>
+        <p> <strong>SEFire</strong> — Shared household Expense management application</p>
+        <p> <strong>Supabase</strong> — Backend development platform</p>
+        <p> <strong>Tesseract OCR</strong> — Optical character recognition engine</p>
+        <p> <strong>UI</strong> — User interface, which is the point of contact and interaction between a human and a
             device, program, or website.</p>
-        <p> Vercel — Web application hosting and deployment platform</p>
-        <p> VS Code — Visual Studio Code</p>
+        <p> <strong>Vercel</strong> — Web application hosting and deployment platform</p>
+        <p> <strong>VS Code</strong> — Visual Studio Code</p>
  </div>       
