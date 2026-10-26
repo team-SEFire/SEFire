@@ -90,6 +90,7 @@ layout: default
                 </section> 
 
                 <!-- Design Presentation -->
+ 
                 <section class="presentation-panel">
                     <div class="document-card">
                         
@@ -105,7 +106,9 @@ layout: default
                         </iframe>
                     </div>
                 </section>
-                    
+            </div>
+        </div>
+    </div>                
 </div>
 
 
