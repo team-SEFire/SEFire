@@ -16,7 +16,7 @@ layout: default
     <h2>Feasibility Presentation</h2>
 
     <p>
-    Team Sapphire's working feasibility iteration.
+    Team Sapphire's feasibility iteration.
     </p>
 
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSUX-AM93jYB0jvzZ0QtF5SwWLasiDtolGTedXKcahOeP1y2PcfM4FlUT-zXFU1jRy1VYjgIqbuQ5Ch/pubembed?start=false&loop=false&delayms=3000"
