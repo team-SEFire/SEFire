@@ -1,8 +1,3 @@
----
-layout: default
-title: Team
----
-
 <div class="page-title">
     <h1>Team Sapphire</h1>
     <div class="title-line">

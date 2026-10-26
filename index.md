@@ -1,7 +1,3 @@
----
-layout: default
-title: Home
----
 <div class="page-title">
     <h1>Welcome to SEFire</h1>
     <div class="title-line">
@@ -111,11 +107,30 @@ Welcome to Team Sapphire's SEFire project website! This website contains informa
 function switchTab(index) {
     const slider = document.querySelector(".presentation-slider");
     const tabs = document.querySelectorAll(".presentation-tabs .tab");
+    const panels = document.querySelectorAll(".presentation-panel");
+    const windowElement = document.querySelector(".presentation-window");
+
+    if (!slider || !windowElement || !panels[index]) return;
 
     slider.style.transform = `translateX(-${index * 100}%)`;
 
     tabs.forEach((tab, i) => {
         tab.classList.toggle("active", i === index);
     });
+
+    windowElement.style.height = `${panels[index].offsetHeight}px`;
 }
+
+window.addEventListener("load", () => {
+    switchTab(0);
+});
+
+window.addEventListener("resize", () => {
+    const activeTab = document.querySelector(".presentation-tabs .tab.active");
+    const tabs = [...document.querySelectorAll(".presentation-tabs .tab")];
+
+    if (activeTab) {
+        switchTab(tabs.indexOf(activeTab));
+    }
+});
 </script>

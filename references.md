@@ -1,6 +1,3 @@
----
-layout: default
----
 <div class="page-title">
     <h1>References</h1>
     <div class="title-line">

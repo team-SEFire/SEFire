@@ -1,7 +1,3 @@
-
----
-layout: default
----
 <div class="page-title">
     <h1>Contacts</h1>
     <div class="title-line">
