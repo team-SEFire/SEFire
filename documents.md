@@ -61,27 +61,4 @@ layout: default
 
 </div>
 
-<div class="document-card">
 
-    <h2>Final Feasibility Presentation</h2>
-
-    <p>
-        Team Sapphire's final feasibility presentation.
-    </p>
-
-    <a class="document-button"
-       href="{{ '/docs/Final_Feasibility_Presentation.pdf' | relative_url }}"
-       target="_blank">
-        Open PDF
-    </a>
-
-    <iframe src="{{ '/docs/Final_Feasibility_Presentation.pdf' | relative_url }}" 
-    name="Lab 1 Outline" 
-    allowTransparency="true" 
-    scrolling="yes" 
-    width="750" 
-    height="500" 
-    frameborder='0'>
-    </iframe>
-
-</div>
