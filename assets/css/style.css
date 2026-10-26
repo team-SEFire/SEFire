@@ -108,6 +108,39 @@ nav a:hover {
     color: var(--white);
 }
 
+/* Enable smooth page-to-page transitions */
+
+@view-transition {
+    navigation: auto;
+}
+
+::view-transition-old(root) {
+    animation: 0.25s ease-in both fadeOut;
+}
+
+::view-transition-new(root) {
+    animation: 0.35s ease-out both fadeIn;
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    ::view-transition-old(root),
+    ::view-transition-new(root) {
+        animation-duration: 0.01ms;
+    }
+}
+
 /*Main*/
 
 main {
