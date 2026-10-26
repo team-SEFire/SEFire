@@ -42,6 +42,7 @@ title: Home
         <div class="presentation-slider">
 
             <!-- Elevator Pitch -->
+
             <section class="presentation-panel">
                 <div class="document-card">
 
@@ -58,19 +59,49 @@ title: Home
             </section>
 
             <!-- Problem Description -->
+
             <section class="presentation-panel">
-                <div class="team-member">
-                    <div class="bio-header">
-                        <h2>Problem Description</h2>
-                    </div>
-                    <div class="bio-description">
-                        <p> Managing financial responsibilities in shared households can be difficult. 
-                            Tracking who pays for rent, utilities, groceries, and other shared expenses 
-                            can be confusing and may lead to missed payments or disagreements. 
-                        </p>
-                    </div>
+                <div class="document-card">
+
+                    <h2>Problem Description</h2>
+                    <p> Managing financial responsibilities in shared households can be 
+                        difficult. Tracking who pays for rent, utilities, groceries, and 
+                        other shared expenses can be confusing and may lead to missed 
+                        payments or disagreements.
+                    </p>
+
                 </div>
             </section>
+
+            <!-- Customers and End Users -->
+
+            <section class="presentation-panel">
+                <div class="document-card">
+
+                    <h2>Customers and End Users</h2>
+                    <p> People who live in shared households and need to manage financial 
+                        responsibilities together. This includes:
+                            - roommates 
+                            - couples 
+                            - families
+                    </p>
+                </div>
+            </section>
+
+            <!-- Solution Statement -->
+
+            <section class="presentation-panel">
+                <div class="document-card">
+
+                    <h2>Solution Statement</h2>
+                    <p> SEFire is a mobile friendly application that help roomates record shared expenses, 
+                        calculate each members shared expenses and track outstanding balances. The application 
+                        also informs its members of the importance of budgeting and explaining financial 
+                        vocabulary using helpful tooltips.
+                    </p>
+                </div>
+            </section>
+            
         </div>
     </div>
 
@@ -82,6 +113,7 @@ SEFire is a shared expense tracking application designed to help people keep tra
 ### About SEFire
 
 SEFire allows people to record shared expenses, split costs, and receive reminders for upcoming bills and unpaid expenses.
+
 
 <script>
 function switchTab(index) {
