@@ -81,7 +81,7 @@ header {
 nav a {
     display: inline-block;
     color: var(#0067bc);
-    background-color: var(--white);
+    background-color: var(#ffffff);
     text-decoration: none;
     padding: 8px 16px;
     margin: 0 5px;
@@ -93,7 +93,7 @@ nav a {
 
 nav a:hover {
     background-color: var(#0067bc);
-    color: var(--white);
+    color: var(#ffffff);
 }
 
 /* Enable smooth page-to-page transitions */
@@ -149,7 +149,7 @@ main {
     width: 300px;
     padding: 20px;
     background-color: var(#29465f);
-    color: var(--white);
+    color: var(#ffffff);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
 }
@@ -161,7 +161,7 @@ main {
     object-fit: cover;
     border-radius: 50%;
 
-    border: 3px solid var(--white);
+    border: 3px solid var(#ffffff);
 }
 
 .team-member h2 {
@@ -171,7 +171,7 @@ main {
 }
 
 .team-member p {
-    color: var(--white);
+    color: var(#ffffff);
     line-height: 1.6;
 }
 
@@ -185,7 +185,7 @@ main {
 }
 
 .bio-description {
-    color: var(--white);
+    color: var(#ffffff);
     text-align: left;
 }
 
@@ -195,7 +195,7 @@ main {
     max-width: 900px;
     margin: 30px auto 50px;
     padding: 25px;
-    background-color: var(--white);
+    background-color: var(#ffffff);
     border: 1px solid #d0d7de;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
@@ -220,7 +220,7 @@ main {
     display: inline-block;
     padding: 9px 18px;
     background-color: var(#0067bc);
-    color: var(--white);
+    color: var(#ffffff);
     text-decoration: none;
     font-weight: bold;
     border-radius: 6px;
@@ -266,7 +266,7 @@ main {
 
 .tab.active {
     background: var(#0067bc);
-    color: white;
+    color: var(#ffffff);
     border-color: var(#0067bc);
     font-weight: bold;
 }
@@ -310,7 +310,7 @@ main {
 /* Footer */
 footer {
     background-color: var(#29465f);
-    color: var(--white);
+    color: var(#ffffff);
     text-align: center;
     padding: 10px;
     width: 100%;
