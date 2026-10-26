@@ -245,21 +245,23 @@ main {
 .tab {
     padding: 12px 30px;
     background: transparent;
+    border: 2px solid var(--sefire-blue);
+    border-radius: 8px;
     color: var(--sefire-dark);
-    border: none;
-    border-bottom: 3px solid transparent; 
     font-size: 18px;
     cursor: pointer;
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .tab:hover {
+    background: var(--sefire-light-blue);
     color: var(--sefire-blue);
 }
 
 .tab.active {
-    color: var(--sefire-blue);
-    border-bottom: var(--sefire-blue);
+    background: var(--sefire-blue);
+    color: white;
+    border-color: var(--sefire-blue);
     font-weight: bold;
 }
 
