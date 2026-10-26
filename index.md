@@ -105,15 +105,7 @@ title: Home
         </div>
     </div>
 
-
-## Team Sapphire
-
-SEFire is a shared expense tracking application designed to help people keep track of shared expenses.
-
-### About SEFire
-
-SEFire allows people to record shared expenses, split costs, and receive reminders for upcoming bills and unpaid expenses.
-
+Welcome to Team Sapphire's SEFire project website! This website contains information about our team, our project, and our project documentation. Please use the navigation bar at the top of the page to explore the site.
 
 <script>
 function switchTab(index) {
