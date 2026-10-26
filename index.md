@@ -56,6 +56,7 @@ title: Home
                     </p>
                 </div>
             </section>
+
             <!-- Problem Description -->
             <section class="presentation-panel">
                 <div class="team-member">
@@ -82,3 +83,15 @@ SEFire is a shared expense tracking application designed to help people keep tra
 
 SEFire allows people to record shared expenses, split costs, and receive reminders for upcoming bills and unpaid expenses.
 
+<script>
+function switchTab(index) {
+    const slider = document.querySelector(".presentation-slider");
+    const tabs = document.querySelectorAll(".presentation-tabs .tab");
+
+    slider.style.transform = `translateX(-${index * 100}%)`;
+
+    tabs.forEach((tab, i) => {
+        tab.classList.toggle("active", i === index);
+    });
+}
+</script>
