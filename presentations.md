@@ -96,7 +96,7 @@ layout: default
                         
                         <h2>Working Draft Design Presentation</h2>
                         <p> Team Sapphire's Working Draft Design Presentation. </p>
-                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRbRb7tXpGGjHMfbRmB8P2mzGus0K_hJB7g8VyalzEM-G_p1xlP8Q-n1OcdycBSomLCXyvSREcXkAld/pub?start=false&loop=false&delayms=3000"
+                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRbRb7tXpGGjHMfbRmB8P2mzGus0K_hJB7g8VyalzEM-G_p1xlP8Q-n1OcdycBSomLCXyvSREcXkAld/pubembed?start=false&loop=false&delayms=3000" 
                             frameborder="0" 
                             width="960" 
                             height="569" 
