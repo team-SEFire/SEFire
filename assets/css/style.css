@@ -227,6 +227,78 @@ main {
     transform: translateY(-1px);
 }
 
+/* Presentation Layouts */
+
+.presentation-container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.presentation-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.tab {
+    padding: 12px 30px;
+    background: transparent;
+    color: var(--sefire-dark);
+    border: none;
+    border-bottom: 3px solid transparent; 
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.tab:hover {
+    color: var(--sefire-blue);
+}
+
+.tab.active {
+    color: var(--sefire-blue);
+    border-bottom: var(--sefire-blue);
+    font-weight: bold;
+}
+
+/* Presentation Slider */
+.presentation-window {
+    width: 100%;
+    overflow: hidden;
+}
+
+.presentation-slider {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.presentation-panel {
+    flex: 0 0 100%;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+/* Presentation Iframes */
+
+.presentation-panel iframe {
+    display: block;
+    width: 100%;
+    max-width: 960px;
+    aspect-ratio: 960 / 569;
+    height: auto;
+    margin: 20px auto;
+    border: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .presentation-slider {
+        transition: none;
+    }
+}
+
 /* Footer */
 footer {
     background-color: var(--sefire-dark);
