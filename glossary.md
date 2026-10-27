@@ -12,7 +12,7 @@
 <div class="document-card">
     <h2>Glossary</h2>
         <p> <strong>API</strong> — Application Programming Interface</p>
-        <p> <strong>Custom Expense Splitting</strong> — dividing an expense among users using user-selected amounts or percentages.</p>
+        <p> <strong>Custom Expense Splitting</strong> — Dividing an expense among users using user-selected amounts or percentages.</p>
         <p> <strong>Git</strong> — Distributed version control system</p>
         <p> <strong>GitHub</strong> — Software development and repository-hosting platform.</p>
         <p> <strong> Household Group </strong> — A set of members belonging to a household that share expenses.</p>
